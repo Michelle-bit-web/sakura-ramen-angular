@@ -1,0 +1,36 @@
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    @extend .flex-container;
+    width: 100%;
+    padding: 32px;
+    
+    >img {
+        width: 64px;
+        height: 64px;
+    }
+    >div {
+        @extend .flex-container;
+        justify-content: flex-end;
+        flex:1;
+        margin-left: 24px;
+        gap: 5%;
+        >a {
+            &:hover{
+                color: red;
+            }
+        }
+        >div {
+            @extend .flex-container;
+        }
+    }
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
