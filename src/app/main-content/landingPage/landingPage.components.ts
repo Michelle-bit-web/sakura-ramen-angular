@@ -5,9 +5,11 @@ import { NavbarComponent } from './navbar/navbar.component';
 @Component({
     selector: 'app-landingPage',
     standalone: true,
-    imports: [CommonModule, NavbarComponent],
+    imports: [
+        CommonModule, 
+        NavbarComponent],
     template: `
-    <section>
+    <section class="fontRaleway">
         <div>
             <app-navbar></app-navbar>
         </div>

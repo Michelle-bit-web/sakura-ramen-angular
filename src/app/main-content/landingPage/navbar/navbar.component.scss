@@ -1,12 +1,11 @@
-.flex-container{
+@mixin flex-container($jc: space-between){
     display: flex;
-    justify-content: space-between;
+    justify-content: $jc;
     align-items: center;
 }
 
 nav {
-    @extend .flex-container;
-    width: 100%;
+    @include flex-container();
     padding: 32px;
     
     >img {
@@ -14,8 +13,7 @@ nav {
         height: 64px;
     }
     >div {
-        @extend .flex-container;
-        justify-content: flex-end;
+       @include flex-container($jc: flex-end);
         flex:1;
         margin-left: 24px;
         gap: 5%;
@@ -25,7 +23,7 @@ nav {
             }
         }
         >div {
-            @extend .flex-container;
+           @include flex-container();
         }
     }
 }
@@ -33,4 +31,16 @@ nav {
 a {
     text-decoration: none;
     color: white;
+}
+
+.tel-btn {
+    background-color: #9f0908;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 10px;
+    height: 32px
+}
+
+.tel-icon {
+    width: 24px;
 }

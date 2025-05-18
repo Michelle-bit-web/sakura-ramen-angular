@@ -1,5 +1,11 @@
 $main-text-color: white;
 
+@mixin flex-container($jc: space-between){
+    display: flex;
+    justify-content: $jc;
+    align-items: center;
+}
+
 h1 {
     font-size: 64px;
     color: $main-text-color;
@@ -15,15 +21,14 @@ div{
 }
 
 section {
+    @include flex-container($jc: flex-start);
+    flex-direction: column;
     height: 100vh;
     width: 100%;
-    background-image: url('./../../assets/img/hero_bg.jpg');
+    background-image: url('./../../../assets/img/hero_bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
+    font-size: 24px;
+    
 }
