@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { MainContentComponent } from './main-content/main-content.component';
+import { FooterComponent } from './shared/components/footer/footer.component';
 
 @Component({
   selector: 'app-root',
@@ -9,6 +10,7 @@ import { MainContentComponent } from './main-content/main-content.component';
     RouterOutlet, 
     CommonModule,
     MainContentComponent,
+    FooterComponent,
   ],
   standalone: true,  
   templateUrl: './app.component.html',
