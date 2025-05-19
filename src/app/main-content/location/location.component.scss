@@ -1,0 +1,24 @@
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+h2 {
+    color: #9f0908;
+    font-size: 80px;
+}
+
+.adress-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 64px;
+    > img {
+        width: 24px;
+    }
+    > span {
+        font-size: 24px;
+    }
+}

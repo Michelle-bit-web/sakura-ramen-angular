@@ -11,22 +11,32 @@ section {
 }
 
 h2 {
-    font-size: 32px;
+    font-size: 80px;
     color: #9f0908;
     margin-bottom: 64px;
 }
 
 .content {
     display: flex;
+    justify-content: space-between;
+    width: 100%
 }
 
-.order-subscetions {
+.order-subsections {
     @extend .flex-box;
+    padding: 0 64px;
     font-weight: bolder;
     > img {
         width: 128px;
         height: 128px;
-        padding: 0 64px;
         margin-bottom: 16px;
+    }
+    > span {
+        font-size: 56px;
+        font-weight: 900;
+    }
+    > p {
+        font-size: 56px;
+        font-weight: 900;
     }
 }

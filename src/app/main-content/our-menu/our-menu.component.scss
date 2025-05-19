@@ -9,15 +9,46 @@ section {
     @extend .flex-box;
     background-image: url("./../../../assets/img/section_our_menu_bg.jpg");
     background-size: cover;
+    padding: 120px 160px;
+    > div {
+        width: 100%;
+    }
 }
 
 .menu {
+    margin-top: 56px;
+    display: flex;
+    gap: 80px;
     > img {
         width: 352px;
         height: 352px;
     }
 }
 
+.menu-reverse{
+    flex-direction: row-reverse;
+}
+
 h2 {
      color: #9f0908;
+     font-size: 80px;
+     margin-bottom: 8px;
+}
+
+table {
+    height: 200px;
+    width: 450px;
+    > th {
+        font-size: 56px;
+        font-weight: bolder;
+        text-align: left;
+        margin-bottom: 16px;
+    }
+    > tr {
+        color: #675e54;
+        > td {
+        font-size: 32px;
+        font-weight: bolder;
+    }
+    }
 }

@@ -12,6 +12,18 @@ footer {
     }
 }
 
+.footer-right-corner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    > a {
+        cursor: pointer;
+        text-decoration: none;
+        color: white;
+    }
+}
+
 .social-media-container {
     display: flex;
     gap: 8px;

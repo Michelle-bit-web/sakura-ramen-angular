@@ -6,7 +6,7 @@
 
 nav {
     @include flex-container();
-    padding: 32px;
+    padding: 24px 160px;
     
     >img {
         width: 64px;
