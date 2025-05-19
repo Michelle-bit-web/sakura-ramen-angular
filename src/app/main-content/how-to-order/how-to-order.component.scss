@@ -1,0 +1,32 @@
+.flex-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section {
+    @extend .flex-box;
+    padding: 120px 160px;
+}
+
+h2 {
+    font-size: 32px;
+    color: #9f0908;
+    margin-bottom: 64px;
+}
+
+.content {
+    display: flex;
+}
+
+.order-subscetions {
+    @extend .flex-box;
+    font-weight: bolder;
+    > img {
+        width: 128px;
+        height: 128px;
+        padding: 0 64px;
+        margin-bottom: 16px;
+    }
+}

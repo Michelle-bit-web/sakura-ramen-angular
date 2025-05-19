@@ -8,15 +8,7 @@ import { NavbarComponent } from './navbar/navbar.component';
     imports: [
         CommonModule, 
         NavbarComponent],
-    template: `
-    <section class="fontRaleway">
-        <div>
-            <app-navbar></app-navbar>
-        </div>
-        <h1 class="fontRaleway">SAKURA RAMEN</h1>
-        <h2 class="fontRaleway">BEST RAMEN IN TOWN</h2>
-    </section>
-    `,
+    templateUrl: './landingPage.components.html',
     styleUrls: ['./landingPage.components.scss'],
 })
 export class LandingPageComponent {
