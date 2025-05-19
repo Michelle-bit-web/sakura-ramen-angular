@@ -1,0 +1,23 @@
+.flex-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section {
+    @extend .flex-box;
+    background-image: url("./../../../assets/img/section_our_menu_bg.jpg");
+    background-size: cover;
+}
+
+.menu {
+    > img {
+        width: 352px;
+        height: 352px;
+    }
+}
+
+h2 {
+     color: #9f0908;
+}
