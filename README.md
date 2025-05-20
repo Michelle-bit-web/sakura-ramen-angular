@@ -1,59 +1,57 @@
-# Sakura
+![Sakura Ramen Website - Angular Project](src/assets/img/readme-sakura-logo.png)
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.12.
+This is a simple and user-friendly design of a ramen ordering website built using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.12., TypeScript and SCSS.
 
-## Development server
+## Demo
 
-To start a local development server, run:
+Live demo: [Lets check it out!](https://michelle-bit-web.github.io/sakura-ramen-angular)
 
-```bash
-ng serve
-```
+## 🪄 Features
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+🍜 Order Ramen Dishes: Users can browse and order various ramen dishes.
 
-## Code scaffolding
+🧭 Single-Page Navigation: Internal links to different sections for easy navigation.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+⚖️ Impressum & Privacy: A dedicated Impressum page with legal information and privacy details.
 
-```bash
-ng generate component component-name
-```
+📍 Google Maps Integration: The homepage embeds Google Maps to show the restaurant location.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+🤝 Cookies: A button ensures the users consent, that is required for loading Google Maps. 
 
-```bash
-ng generate --help
-```
+## 📸 Screenshots
 
-## Building
+Mobile phone preview:
+![App Board](./assets/img/bildeinfügen)
 
-To build the project run:
+## ⚙️ Technologies Used
 
-```bash
-ng build
-```
+- Angular version 19.2
+- TypeScript
+- SCSS for styling
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## 🚀 Getting Started
 
-## Running unit tests
+It´s a frontend project, so no installation required. Simply:
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+1. Clone the repository.
+2. Run npm install to install dependencies.
+3. Run ng serve to start the development server.
+4. Access the app at local host link.
 
-```bash
-ng test
-```
 
-## Running end-to-end tests
+## 🤝 Contributing
 
-For end-to-end (e2e) testing, run:
+Ideas and feedback are welcome! Feel free to open issues or submit pull requests.
 
-```bash
-ng e2e
-```
+##💡To-Dos / Ideas
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+- [ ] 📍 Phone link / Social Media link for the icons.
+   
+## 🤓 Author
 
-## Additional Resources
+Created by [Michelle Puschkarow].
+If you like this project, feel free to give it a ⭐️ or contribute!
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## 💫 Credits
+
+Thanks a lot to Developer Akademie for their support!
