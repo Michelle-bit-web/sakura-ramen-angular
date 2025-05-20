@@ -11,4 +11,9 @@ import { Component } from '@angular/core';
 })
 export class ImprintComponent {
 
+  resetConsent(event: Event): void {
+  event.preventDefault();
+  document.cookie = 'maps_consent=; path=/; max-age=0';
+  alert('Your Google Maps consent has been withdrawn. The change will take effect the next time you visit the map.');
+}
 }

@@ -1,10 +1,29 @@
 <section>
-    <h2 class="fontRaleway">FIND US AT</h2>
-    <div class="adress-container">
-        <img src="assets/img/map_marker.png" alt="Map marker icon">
-        <span class="fontRaleway">Kapuzinerstraße 31, München, 80337</span>
+  <h2 class="fontRaleway">FIND US AT</h2>
+  <div class="adress-container">
+    <img src="assets/img/map_marker.png" alt="Map marker icon" />
+    <span class="fontRaleway">Kapuzinerstraße 31, München, 80337</span>
+  </div>
+
+
+    <div *ngIf="!consentGiven; else showMap" class="map-consent-box fontRaleway">
+      <p class="placeholder">
+        To display Google Maps, external content from Google must be loaded. 
+        In the process, personal data may be processed.
+      </p>
+      <button id="load-map" (click)="giveConsent()">Activate Google Maps</button>
     </div>
-    <div>
-        Google Map hierher
-    </div>
+
+  <ng-template #showMap>
+        <iframe
+            class="map"
+            [src]= "googleMapUrl"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </ng-template>
+
+
 </section>
