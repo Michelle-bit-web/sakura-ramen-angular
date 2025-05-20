@@ -10,20 +10,43 @@ section {
     background-position: bottom;
     color: white;
     font-size: 24px;
+    @media(max-width: 1000px) {
+           font-size: 20px;
+        }
+    @media(max-width: 450px) {
+            font-size: 16px;
+        }
 }
 
 h1 {
     font-size: 40px;
     margin: 32px 0;
+    @media(max-width: 1000px) {
+           font-size: 32px;
+           margin: 24px 0;
+        }
+    @media(max-width: 450px) {
+            font-size: 28px;
+            margin: 16px 0;
+        }
 }
 
 .imprint-overlay {
     background-color: rgba(0, 0, 0, 0.459);
     min-height: 100vh;
     padding: 112px 160px;
+    @media(max-width: 1000px) {
+           padding: 112px 24px;
+        }
+    @media(max-width: 450px) {
+            padding: 64px 16px;
+        }
 }
 
 button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #9F0908;
     border-radius: 10px;
     border: 6px;
@@ -38,6 +61,15 @@ button {
         cursor: pointer;
         background-color: #cd0c0c;
     }
+    @media(max-width: 1000px) {
+           padding: 8px;
+           height: 35px;
+           width: 120px;
+           font-size: 20px;
+        }
+    @media(max-width: 450px) {
+            
+        }
 }
 
 a {
@@ -48,6 +80,12 @@ a {
 
 strong {
     font-size: 28px;
+      @media(max-width: 1000px) {
+           font-size: 24px;
+        }
+    @media(max-width: 450px) {
+            font-size: 20px;
+        }
 }
 
 .links:hover {
