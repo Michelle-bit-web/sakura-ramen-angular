@@ -2,9 +2,6 @@
 
 This is a simple and user-friendly design of a ramen ordering website built using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.12., TypeScript and SCSS.
 
-## Demo
-
-Live demo: [Lets check it out!](https://michelle-bit-web.github.io/sakura-ramen-angular/)
 
 ## 🪄 Features
 
