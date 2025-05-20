@@ -41,7 +41,7 @@ h2 {
 
 .order-subsections {
     @extend .flex-box;
-    padding: 0 64px;
+    // padding: 0 64px;
     font-weight: bolder;
     > img {
         width: 128px;
@@ -55,6 +55,7 @@ h2 {
     > span {
         font-size: 56px;
         font-weight: 900;
+        text-align: center;
         @media(max-width: 1000px){
         font-size: 32px;
     }
