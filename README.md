@@ -4,7 +4,7 @@ This is a simple and user-friendly design of a ramen ordering website built usin
 
 ## Demo
 
-Live demo: [Lets check it out!](https://michelle-bit-web.github.io/sakura-ramen-angular)
+Live demo: [Lets check it out!](https://michelle-bit-web.github.io/sakura-ramen-angular/)
 
 ## 🪄 Features
 
