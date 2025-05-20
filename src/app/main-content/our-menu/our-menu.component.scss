@@ -13,42 +13,83 @@ section {
     > div {
         width: 100%;
     }
+    @media(max-width: 1000px) {
+       padding: 96px 24px;
+    }
+    @media(max-width: 450px) {
+       padding: 72px 16px;
+    }
 }
 
 .menu {
     margin-top: 56px;
     display: flex;
+    align-items: center;
     gap: 80px;
     > img {
         width: 352px;
         height: 352px;
+        @media(max-width: 450px) {
+         width: 280px;
+         height: 280px;
+       }
+    }
+    @media(max-width: 450px) {
+        flex-direction: column;
     }
 }
 
 .menu-reverse{
     flex-direction: row-reverse;
+    @media(max-width: 450px) {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 h2 {
      color: #9f0908;
      font-size: 80px;
      margin-bottom: 8px;
+     @media(max-width: 1000px) {
+        font-size: 64px;
+        margin-bottom: 48px;
+    }
+     @media(max-width: 450px) {
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
 }
 
 table {
     height: 200px;
-    width: 450px;
+    width: 500px;
+    @media(max-width: 450px) {
+        height: 200px;
+        width: 280px;
+    }
     > th {
         font-size: 56px;
         font-weight: bolder;
         text-align: left;
         margin-bottom: 16px;
+        @media(max-width: 1000px) {
+            font-size: 32px;
+    }
     }
     > tr {
         color: #675e54;
         > td {
         font-size: 32px;
         font-weight: bolder;
+        @media(max-width: 1000px) {
+           font-size: 24px;
+           width: 250px;
+        }
     }
     }
+}
+
+.td-prices {
+    text-align: end;
 }

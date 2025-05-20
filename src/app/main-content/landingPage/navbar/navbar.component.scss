@@ -7,10 +7,21 @@
 nav {
     @include flex-container();
     padding: 24px 160px;
+    @media (max-width: 1000px) {
+        padding:24px 24px;
+    }
+    @media (max-width: 450px) {
+        padding:16px 16px;
+    }
     
     >img {
         width: 64px;
         height: 64px;
+        @media (max-width: 450px) {
+        width: 40px;
+        height: 40px;
+    }
+    
     }
     >div {
        @include flex-container($jc: flex-end);
@@ -33,6 +44,12 @@ a {
     color: white;
 }
 
+.mobile-none {
+    @media (max-width: 1000px) {
+        display: none;
+    }
+}
+
 .tel-btn {
     background-color: #9f0908;
     border-radius: 10px;
@@ -43,6 +60,12 @@ a {
         cursor: pointer;
         background-color: #cd0c0c;
         }
+    @media (max-width: 450px) {
+        height: 20px;
+        > a {
+            font-size: 16px;
+        }
+    }
 }
 
 .tel-icon {

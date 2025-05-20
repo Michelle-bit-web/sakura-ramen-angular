@@ -21,7 +21,7 @@ Live demo: [Lets check it out!](https://michelle-bit-web.github.io/sakura-ramen-
 ## 📸 Screenshots
 
 Mobile phone preview:
-![App Board](./assets/img/bildeinfügen)
+![App Board](src/assets/img/readme-preview.png)
 
 ## ⚙️ Technologies Used
 
