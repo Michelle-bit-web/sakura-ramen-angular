@@ -59,13 +59,17 @@ h2 {
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 600px;
+    width: 100%;
+    max-width: 600px;
     height: 450px;
     gap: 32px;
     background-color: #aeacac67;
-    @media(max-width: 450px) {
+    @media(max-width: 600px) {
         font-size: 16px;
         width: 100%;
+        .placeholder {
+            width: 90%;
+        }
     }
 }
 

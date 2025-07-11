@@ -43,7 +43,9 @@ Ideas and feedback are welcome! Feel free to open issues or submit pull requests
 
 ##💡To-Dos / Ideas
 
-- [ ] 📍 Phone link / Social Media link for the icons.
+- [X] 📍 Phone link / Social Media link for the icons.
+- [ ] 🔒 Log-In functionality
+- [ ] 🚚 Order functionality
    
 ## 🤓 Author
 
